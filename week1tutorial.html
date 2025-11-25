@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Portfolio — Your Name | Web Developer, Designer" />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Favicon (optional) -->
+  <link rel="icon" href="C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2025-05-26 140153.png" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">YN</div>
+        <div>
+          <div style="font-weight:700">Your Name</div>
+          <div style="font-size:12px;color:var(--muted);">Web Developer • Designer</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="intro">
+          <h1>Hi — I’m Your Name.<br/>I build delightful web experiences.</h1>
+          <p>I’m a front-end developer who focuses on building fast, accessible, and beautiful interfaces. I enjoy turning ideas into polished products.</p>
+          <div class="cta">
+            <a class="btn" href="#projects">See projects</a>
+            <a class="btn ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+
+        <aside class="card profile">
+          <div class="avatar">
+            <img src="C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2025-05-26 140153.png" style="width:100%; height:100%; border-radius:14px; object-fit:cover;">
+          </div>
+          <div style="text-align:center">
+            <div style="font-weight:700">Your Name</div>
+            <div style="font-size:13px;color:var(--muted)">Location • Role</div>
+            <div style="margin-top:8px;color:var(--muted);font-size:13px">Open to freelance & full-time opportunities</div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="about">
+        <div class="card">
+          <h2>About me</h2>
+          <p style="color:var(--muted)">I build user interfaces and small web apps. I care about performance, accessibility, and clean design. When I’m not coding you’ll find me reading, sketching UI ideas, or experimenting with new JavaScript libraries.</p>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Selected projects</h2>
+        <div class="grid">
+          <article class="project">
+            <h3>Project One</h3>
+            <p>Brief description — what it does, technologies used (HTML, CSS, JS).</p>
+            <div style="margin-top:10px"><a href="#">View →</a></div>
+          </article>
+
+          <article class="project">
+            <h3>Project Two</h3>
+            <p>Brief description — API integrations, interactivity, etc.</p>
+            <div style="margin-top:10px"><a href="#">View →</a></div>
+          </article>
+
+          <article class="project">
+            <h3>Project Three</h3>
+            <p>Brief description — performance, accessibility, or design highlights.</p>
+            <div style="margin-top:10px"><a href="#">View →</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="card">
+          <div class="skills">
+            <div class="chip">HTML</div>
+            <div class="chip">CSS</div>
+            <div class="chip">JavaScript</div>
+            <div class="chip">React</div>
+            <div class="chip">Node.js</div>
+            <div class="chip">UI/UX</div>
+            <div class="chip">Figma</div>
+            <div class="chip">Accessibility</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <div class="card">
+          <form onsubmit="event.preventDefault(); alert('Message sent — replace this with real backend');">
+            <input type="text" placeholder="Your name" required />
+            <input type="email" placeholder="Your email" required />
+            <textarea placeholder="Message" required></textarea>
+            <button class="btn" type="submit">Send message</button>
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div>Made with ♥ — Your Name • <a href="#">GitHub</a> • <a href="#">LinkedIn</a></div>
+    </footer>
+  </div>
+</body>
+</html>
